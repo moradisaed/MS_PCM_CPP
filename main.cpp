@@ -70,7 +70,7 @@ int main()
     Mat image;
     Mat img;
 
-    img= imread("//home/raman/MEGA/MEGAsync/documents/MATLAB/SAPA/282.jpg", 0);
+    img= imread("path to the test image", 0);
     img.convertTo(image, CV_32FC1);
    // namedWindow("original image");
   //  imshow("original image", img);
